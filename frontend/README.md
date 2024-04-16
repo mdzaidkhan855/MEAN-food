@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+####################  Git setup ###############################
+1. Open git bash prompt: Remove git from ..MEAN/frontend: open git bash : rm -rf .git
+2. Open command propmt: Now go to root directory : cd .. (MEAN)
+3. git init
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin https://mdzaidkhan855@github.com/mdzaidkhan855/MEAN-food.git
+7. git push -u origin main
+
+####################### Header component ########################
+1. Go to frontend folder: ng g c components/partials/header
+2. Go to app.component.html: remove all
+3. 

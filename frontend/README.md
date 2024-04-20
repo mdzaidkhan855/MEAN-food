@@ -63,4 +63,8 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Frontend starts $$$$$$$$$$$$$$$$$$$$$$$$$
 ######################## food Componenet ####################
 1. ng g c components/pages/food-page
 
+######################## Models:Cart,CartItem and Cart Service and Componenet ##################
+1. ng g s services/cart
+2. ng g c components/pages/cart-page
+
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Frontend ends $$$$$$$$$$$$$$$$$$$$$$$$$

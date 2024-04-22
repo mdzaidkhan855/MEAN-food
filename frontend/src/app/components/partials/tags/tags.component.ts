@@ -13,6 +13,13 @@ export class TagsComponent {
   tags?:Tag[];
 
   constructor(foodService:FoodService,activatedRoute:ActivatedRoute,router:Router){
-    this.tags = foodService.getAllTags();
+    // this.tags = foodService.getAllTags();
+
+    console.log("Inside Tag component");
+    
+    foodService.getAllTags().subscribe((tags)=>{
+      console.log("Inside getAllTags:" , tags);
+      this.tags = tags;
+    });
   }
 }

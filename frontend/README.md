@@ -68,3 +68,25 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Frontend starts $$$$$$$$$$$$$$$$$$$$$$$$$
 2. ng g c components/pages/cart-page
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Frontend ends $$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$  Backend starts $$$$$$$$$$$$$$$$$$$$$$$$$
+1.Create backend folder
+2.npm init : Go to backend folder :npm init -y
+3.Go to backend folder :  npm install typescript ( we want to create node app using typescript)
+4.create tsconfig.json , then paste content from nasir's foodmine-course-master/master/backend
+    Also create src folder inside backend manaullay.
+5.create .gitignore : type node_modules inside it
+6.Copy data.ts to backend/src: also change sample food and sample tag array to any array type.
+  
+7. Create server.ts , install @types, Add APIs
+    import express from 'express'; it shows error. hover over express and click install '@type/express'
+     The above will result in "@types/express": "^4.17.21" inside dev dependency;
+     Repeat steps for import cors from 'cors';
+8. Since it is type script , we need to convert into javascript project     
+           npm install ts-node --save-dev
+9.npm install nodemon  --save-dev
+10. Write start script in package.json: <refer package.json/>
+11. Run the server : go to backend in command line and fire npm start
+10. Add urs.ts to front end,
+11. Add HttpClient module

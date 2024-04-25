@@ -90,3 +90,6 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Backend starts $$$$$$$$$$$$$$$$$$$$$$$$$
 11. Run the server : go to backend in command line and fire npm start
 10. Add urs.ts to front end,
 11. Add HttpClient module
+
+########################### MongoDB ATlas #####################
+1. 

@@ -25,7 +25,6 @@ export class FoodPageComponent {
   }
 
   addToCart(){
-    alert('adding to cart: and routing to cart-page')
     this.cartService.addToCart(this.food);
     this.router.navigateByUrl('/cart-page');
   }
